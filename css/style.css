@@ -1,0 +1,145 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: #657273;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+nav{
+	position: sticky;
+	top:0;
+}
+
+nav ul {
+	display: flex;
+	margin: 0;
+	background-color: black;
+	color: white;	
+	padding-left: 0;
+}
+
+nav ul li{
+	height: 50px;
+	padding-top: 20px;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+#propos {
+	/*background-color: #D1F0EA;*/
+	height: 100vh;
+}
+
+#propos h2{
+	text-align: center;
+	padding-top:100px;
+}
+
+#propos div{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#propos img{
+	height: 300px;
+	border-radius: 50%;
+}
+
+#competence{
+	height: 100vh;
+	background-color: #f0eff0;
+}
+
+#competence h2{
+	padding-top:100px;
+	text-align: center;
+}
+
+#competence div{
+	width: 60%;
+	margin-left:20%;
+	display: flex;
+	flex-wrap: wrap;
+	height: 60vh;
+	justify-content: center;
+	align-items: center;
+}
+
+#competence img{
+	height: 100px;
+}
+
+#competence figure{
+	margin-right: 100px;
+}
+
+#competence figcaption{
+	text-align: center;
+}
+
+#formation{
+	height: 100vh;
+}
+
+#formation h2{
+	text-align: center;
+	padding-top: 100px;
+}
+
+#formation ul{
+	margin-top: 100px;
+	padding-left: 0;
+}
+
+#formation ul li{
+	list-style-type: none;
+	text-align: center;
+	margin-bottom: 100px;	
+}
+
+#experience {
+	height: 100vh;
+	background-color: #f0eff0;
+}
+
+#experience h2{
+	text-align: center;
+	padding-top: 100px;
+}
+
+#experience ul{
+	margin-top: 100px;
+	padding-left:0;
+}
+
+#experience ul li{
+	list-style-type: none;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.content{
+	box-shadow: 10px 10px 20px  black;
+
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	height: 30vh;
+	justify-content: center;
+	background-color: #657273; 
+}
