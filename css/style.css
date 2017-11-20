@@ -117,8 +117,15 @@ nav ul li a:hover{
 
 #formation ul li{
 	list-style-type: none;
-	text-align: center;
-	margin-bottom: 100px;	
+	margin-bottom: 50px;	
+}
+
+.left{
+	margin-left: 30%;
+}
+
+.right{
+	margin-left: 15%;
 }
 
 #experience {
@@ -139,8 +146,7 @@ nav ul li a:hover{
 
 #experience ul li{
 	list-style-type: none;
-	text-align: center;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .content{
